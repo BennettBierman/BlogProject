@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="static/playAround.css">
+    <title>Page2</title>
+</head>
+<body>
+    <a href = "/">Go to page 2</a>
+    <h1>Hello World to page two</h1>
+
+    <canvas id = "testCanvas" width = "400px" height = "400px" style = "border: 3px solid black"></canvas>
+      <script>
+         let canvas = document.getElementById("testCanvas");
+         var ctx = canvas.getContext("2d");
+         draw();
+
+         function draw(){
+            console.log("infunction");
+            ctx.beginPath();
+            ctx.fillStyle = "red";
+            ctx.strokeStyle = "red";
+            ctx.rect(30,30,300,30);
+            ctx.stroke();
+            ctx.fill();
+            ctx.closePath();
+
+         }
+
+      </script>
+
+<table border="1" cellpadding="2" cellspacing="0" style="height: 150px;">
+    <tr>
+       <td class="top">Top</td>
+       <td class="middle">Middle</td>
+       <td class="bottom">Bottom</td>
+    </tr>
+  </table>
+    
+</body>
+</html>

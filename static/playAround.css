@@ -1,0 +1,116 @@
+
+:root {
+    --fontfam: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+p.fantasy {
+    font-family: Blippo, fantasy;
+ }
+
+ p.cursive {
+  font-family: Florence, cursive;
+}
+p.small {
+  font-size: small;
+  font-variant: small-caps;
+}
+
+p {
+    color:white;
+    background-color:gray;
+    text-indent: 60px;
+ }
+
+body{
+    color:orchid;
+    text-align: right;
+    text-shadow: 5px 2px 4px grey;
+}
+
+h1 {
+    color:orange;
+    font-size:130%;
+    background-color:plum;
+    text-decoration: blink;
+
+}
+
+h2{
+    color:burlywood;
+    align-self: center;
+    /* Comment goes here */
+    background-color:blue;
+
+}
+
+ ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+    position: -webit-sticky;
+    position: sticky;
+    height: 50px;
+  }
+  
+  li {
+    white-space: nowrap;
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  /* Style the navbar */
+#navbar {
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  td.top {
+    vertical-align: top;
+ }
+ td.middle {
+    vertical-align: middle;
+    text-decoration: aquamarine, line-through;
+ }
+ td.bottom {
+    vertical-align: bottom;
+ }
